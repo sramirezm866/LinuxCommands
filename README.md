@@ -17,6 +17,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
 **_vi archivo1.txt_** es un editor de texto.<br/>
+**_uname -a_** .<br/>
 
 ### Pre-requisitos 📋
 
