@@ -17,6 +17,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
 **_vi archivo1.txt_** es un editor de texto.<br/>
+**_history_** ver el historial de comandos que se han ejecutado.<br/>
 
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
 **_uname -a_** muestra la versión del kernel.<br/>
@@ -26,7 +27,9 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
  
 **_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
 **_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
-  
+**_sudo apt intall snapd_** instalar un paquete llamado snapd el cual es una tienda de aplicaciones.<br/>
+**_sudo apt remove 'package-name'_** eliminar un paquete de software.<br/>
+
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -15 pid_** matar un proceso que está corriendo en el equipo.<br/>
 
