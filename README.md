@@ -27,6 +27,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_history_** ver el historial de comandos que se han ejecutado.<br/>
 
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
+**_whoami_** muestra el nombre del usuario que actualmente se encuentra en sesión.<br/>
 **_uname -a_** muestra la versión del kernel.<br/>
 **_lsb_release -a_** muestra toda la información Linux Standard Base (LSB) específica para la distribución de Linux.<br/>
 **_man 'command'_** muestra el manual de uso de un comando.<br/>
@@ -39,6 +40,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
+**_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
 
 ### Pre-requisitos 📋
 
