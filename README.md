@@ -23,7 +23,9 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_tail –n # 'file-name'_** muestra solo # cantidad de línas del final del documento.<br/>
 **_head 'file-name'_** muestra el inicio de un documento.<br/>
 **_head –n # 'file-name'_** muestra solo # cantidad de línas del inicio del documento.<br/>
-
+**_grep word file-name_** se utiliza para buscar una cadena de caracteres en un archivo específico.<br/>
+**_pwd_** imprime el nombre del directorio actual integrando a su vez la ruta completa tomando como origen la raíz (/).<br/>
+ 
 **_history_** ver el historial de comandos que se han ejecutado.<br/>
 
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
@@ -41,6 +43,10 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
 **_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
+**_top_** da información acerca del uso de la cpu, de la memoria, de los procesos en ejecución, entre otros, en tiempo real.<br/>
+**_htop_** permite al usuario monitorear interactivamente los recursos vitales del sistema.<br/>
+**_uptime_** se utiliza para averiguar cuánto tiempo está activo el sistema (en ejecución).<br/>
+
 
 ### Pre-requisitos 📋
 
