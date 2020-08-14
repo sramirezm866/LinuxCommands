@@ -6,8 +6,8 @@ _Acá se encuentra una recopilación de los comandos de Linux utilizados durante
 
 _Se enlistan comandos básicos para la administración de dicho Sistema Operativo._
 
-**_Sudo apt-update_** actualiza la lista de paquetes.<br/>
-**_Sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
+**_sudo apt-updade_** actualiza la lista de paquetes.<br/>
+**_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
 **_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
 **_ls_** sirve para ver las carpetas y archivos que están dentro de un directorio.<br/>
 **_ls -l_** sirve para ver las carpetas y archivos que están dentro de un directorio en forma de lista. <br/>
@@ -17,7 +17,18 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
 **_vi archivo1.txt_** es un editor de texto.<br/>
-**_uname -a_** .<br/>
+
+**_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
+**_uname -a_** muestra la versión del kernel.<br/>
+**_lsb_release -a_** muestra toda la información Linux Standard Base (LSB) específica para la distribución de Linux.<br/>
+**_man 'command'_** muestra el manual de uso de un comando.<br/>
+**_alias actualizar = "sudo apt update && sudo apt upgrade"_** crea un alias para un comando.<br/>
+ 
+**_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
+**_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
+  
+**_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
+**_kill -15 pid_** matar un proceso que está corriendo en el equipo.<br/>
 
 ### Pre-requisitos 📋
 
