@@ -17,6 +17,13 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
 **_vi archivo1.txt_** es un editor de texto.<br/>
+
+**_more_** se usa para ver los documentos de texto mostrando una página a la vez en caso de que el archivo sea grande.<br/>
+**_tail 'file-name'_** muestra el final de un documento.<br/>
+**_tail –n # 'file-name'_** muestra solo # cantidad de línas del final del documento.<br/>
+**_head 'file-name'_** muestra el inicio de un documento.<br/>
+**_head –n # 'file-name'_** muestra solo # cantidad de línas del inicio del documento.<br/>
+
 **_history_** ver el historial de comandos que se han ejecutado.<br/>
 
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
@@ -31,7 +38,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_sudo apt remove 'package-name'_** eliminar un paquete de software.<br/>
 
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
-**_kill -15 pid_** matar un proceso que está corriendo en el equipo.<br/>
+**_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
 
 ### Pre-requisitos 📋
 
