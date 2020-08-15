@@ -6,7 +6,7 @@ _Acá se encuentra una recopilación de los comandos de Linux utilizados durante
 
 _Se enlistan comandos básicos para la administración de dicho Sistema Operativo._
 
-_Administración de archivos y directorios:._
+_Administración de archivos y directorios:_
 
 **_ls_** sirve para ver las carpetas y archivos que están dentro de un directorio.<br/>
 **_ls -l_** sirve para ver las carpetas y archivos que están dentro de un directorio en forma de lista. <br/>
@@ -26,7 +26,7 @@ _Administración de archivos y directorios:._
 **_grep word file-name_** se utiliza para buscar una cadena de caracteres en un archivo específico.<br/>
 **_pwd_** imprime el nombre del directorio actual integrando a su vez la ruta completa tomando como origen la raíz (/).<br/>
  
-_Administración de paquetes y directorios:._
+_Administración de paquetes y repositorios:_
 
 **_sudo apt-updade_** actualiza la lista de paquetes.<br/>
 **_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
