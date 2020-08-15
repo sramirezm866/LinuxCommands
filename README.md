@@ -34,6 +34,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_lsb_release -a_** muestra toda la información Linux Standard Base (LSB) específica para la distribución de Linux.<br/>
 **_man 'command'_** muestra el manual de uso de un comando.<br/>
 **_alias actualizar = "sudo apt update && sudo apt upgrade"_** crea un alias para un comando.<br/>
+**_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
  
 **_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
 **_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
