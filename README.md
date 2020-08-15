@@ -57,6 +57,11 @@ _Administración de paquetes y repositorios:_
 **_htop_** permite al usuario monitorear interactivamente los recursos vitales del sistema.<br/>
 **_uptime_** se utiliza para averiguar cuánto tiempo está activo el sistema (en ejecución).<br/>
 **_df -h_** muestra información relacionada con los sistemas de archivos. (espacio total y el espacio disponible).<br/>
+**_demicode -t processor_** obtener información acerca del procesador.<br/>
+**_demicode -t bios_** obtener información acerca del bios.<br/>
+**_swapon_** se utiliza para especificar los dispositivos en los que se realizará la búsqueda y el intercambio.
+**_swapoff_** desactiva el intercambio en los dispositivos y archivos especificados.
+**_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.
 
 ### Pre-requisitos 📋
 
