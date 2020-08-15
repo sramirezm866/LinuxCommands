@@ -78,4 +78,4 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 _Elaborado por:_
 
-* **Sindy Emileidy Ramírez Mora** - *Trabajo Inicial*
+* **Sindy Emileidy Ramírez Mora** - *ULACIT*
