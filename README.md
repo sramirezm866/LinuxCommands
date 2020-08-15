@@ -8,10 +8,13 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 _Administración de archivos y directorios:_
 
+
+**_cd 'dir-name'_** crea un nuevo directorio.<br/>
 **_ls_** sirve para ver las carpetas y archivos que están dentro de un directorio.<br/>
 **_ls -l_** sirve para ver las carpetas y archivos que están dentro de un directorio en forma de lista. <br/>
 **_ls -a_** sirve para ver las carpetas y archivos que están ocultos. <br/>
-**_mkdir_** crea un nuevo directorio.<br/>
+**_mkdir 'new-dir-name'_** crea un nuevo directorio.<br/>
+**_rmdir 'dir-name'_** elimina un directorio.<br/>
 **_touch archivo1.txt_** crea un nuevo archivo.<br/>
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
@@ -25,6 +28,12 @@ _Administración de archivos y directorios:_
 **_head –n # 'file-name'_** muestra solo # cantidad de línas del inicio del documento.<br/>
 **_grep word file-name_** se utiliza para buscar una cadena de caracteres en un archivo específico.<br/>
 **_pwd_** imprime el nombre del directorio actual integrando a su vez la ruta completa tomando como origen la raíz (/).<br/>
+**_du -h 'file'_** muestra el tamaño del archivo.
+**_stat 'file'_** muestra la fecha de creación del archivo.
+**_file 'file'_** muestra el tipo de archivo.
+**_chown 'user' 'file'_** propietario del archivo.
+**_chmod 777 'file'_** dar permisos al archivo.
+ 
  
 _Administración de paquetes y repositorios:_
 
@@ -62,6 +71,12 @@ _Administración de paquetes y repositorios:_
 **_swapon_** se utiliza para especificar los dispositivos en los que se realizará la búsqueda y el intercambio.
 **_swapoff_** desactiva el intercambio en los dispositivos y archivos especificados.
 **_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.
+**_mount_** la salida incluirá todos los sistemas de archivos, incluidos los virtuales, como cgroup, sysfs y otros.
+**_gparted_** administra las particiones.
+**_gnome-disk-utility_** muestra información sobre el disco.
+**_echo 'string'_** se usa para mostrar la línea o cadena de texto que se pasa como argumento.
+**_bash 'script.sh'_** ejecutar un script de bash.
+
 
 ### Pre-requisitos 📋
 
