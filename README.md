@@ -6,9 +6,8 @@ _Acá se encuentra una recopilación de los comandos de Linux utilizados durante
 
 _Se enlistan comandos básicos para la administración de dicho Sistema Operativo._
 
-**_sudo apt-updade_** actualiza la lista de paquetes.<br/>
-**_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
-**_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
+_Administración de archivos y directorios:._
+
 **_ls_** sirve para ver las carpetas y archivos que están dentro de un directorio.<br/>
 **_ls -l_** sirve para ver las carpetas y archivos que están dentro de un directorio en forma de lista. <br/>
 **_ls -a_** sirve para ver las carpetas y archivos que están ocultos. <br/>
@@ -17,7 +16,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
 **_nano archivo1.txt_** es un editor de texto.<br/>
 **_vi archivo1.txt_** es un editor de texto.<br/>
-
+**_mv 'file-name' 'new-file-name'_** renombrar un archivo o directorio.<br/>
+**_mv 'file-name' 'new-file-path'_** mover un archivo o directorio.<br/>
 **_more_** se usa para ver los documentos de texto mostrando una página a la vez en caso de que el archivo sea grande.<br/>
 **_tail 'file-name'_** muestra el final de un documento.<br/>
 **_tail –n # 'file-name'_** muestra solo # cantidad de línas del final del documento.<br/>
@@ -26,8 +26,20 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_grep word file-name_** se utiliza para buscar una cadena de caracteres en un archivo específico.<br/>
 **_pwd_** imprime el nombre del directorio actual integrando a su vez la ruta completa tomando como origen la raíz (/).<br/>
  
-**_history_** ver el historial de comandos que se han ejecutado.<br/>
+_Administración de paquetes y directorios:._
 
+**_sudo apt-updade_** actualiza la lista de paquetes.<br/>
+**_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
+**_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
+**_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
+**_sudo apt intall snapd_** instalar un paquete llamado snapd el cual es una tienda de aplicaciones.<br/>
+**_sudo apt remove 'package-name'_** eliminar un paquete de software.<br/>
+**_dpkg -l_** sirve para ver la lista de paquetes instalados.<br/>
+**_dpkg -i 'package-name'_** sirve para instalar un paquete.<br/>
+**_dpkg -r 'package-name'_** sirve para desinstalar un paquete.<br/>
+**_sudo add-apt-repository 'repository'_** añade un repositorio.<br/>
+
+**_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
 **_whoami_** muestra el nombre del usuario que actualmente se encuentra en sesión.<br/>
 **_uname -a_** muestra la versión del kernel.<br/>
@@ -35,19 +47,16 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_man 'command'_** muestra el manual de uso de un comando.<br/>
 **_alias actualizar = "sudo apt update && sudo apt upgrade"_** crea un alias para un comando.<br/>
 **_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
+**_sudo passwd 'user' _** cambia el password del usuario especificado.<br/>
+**_history_** ver el historial de comandos que se han ejecutado.<br/>
  
-**_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
-**_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
-**_sudo apt intall snapd_** instalar un paquete llamado snapd el cual es una tienda de aplicaciones.<br/>
-**_sudo apt remove 'package-name'_** eliminar un paquete de software.<br/>
-
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
 **_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
 **_top_** da información acerca del uso de la cpu, de la memoria, de los procesos en ejecución, entre otros, en tiempo real.<br/>
 **_htop_** permite al usuario monitorear interactivamente los recursos vitales del sistema.<br/>
 **_uptime_** se utiliza para averiguar cuánto tiempo está activo el sistema (en ejecución).<br/>
-
+**_df -h_** muestra información relacionada con los sistemas de archivos. (espacio total y el espacio disponible).<br/>
 
 ### Pre-requisitos 📋
 
