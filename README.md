@@ -28,11 +28,11 @@ _Administración de archivos y directorios:_
 **_head –n # 'file-name'_** muestra solo # cantidad de línas del inicio del documento.<br/>
 **_grep word file-name_** se utiliza para buscar una cadena de caracteres en un archivo específico.<br/>
 **_pwd_** imprime el nombre del directorio actual integrando a su vez la ruta completa tomando como origen la raíz (/).<br/>
-**_du -h 'file'_** muestra el tamaño del archivo.
-**_stat 'file'_** muestra la fecha de creación del archivo.
-**_file 'file'_** muestra el tipo de archivo.
-**_chown 'user' 'file'_** propietario del archivo.
-**_chmod 777 'file'_** dar permisos al archivo.
+**_du -h 'file'_** muestra el tamaño del archivo.<br/>
+**_stat 'file'_** muestra la fecha de creación del archivo.<br/>
+**_file 'file'_** muestra el tipo de archivo.<br/>
+**_chown 'user' 'file'_** propietario del archivo.<br/>
+**_chmod 777 'file'_** dar permisos al archivo.<br/>
  
  
 _Administración de paquetes y repositorios:_
@@ -68,14 +68,14 @@ _Administración de paquetes y repositorios:_
 **_df -h_** muestra información relacionada con los sistemas de archivos. (espacio total y el espacio disponible).<br/>
 **_demicode -t processor_** obtener información acerca del procesador.<br/>
 **_demicode -t bios_** obtener información acerca del bios.<br/>
-**_swapon_** se utiliza para especificar los dispositivos en los que se realizará la búsqueda y el intercambio.
-**_swapoff_** desactiva el intercambio en los dispositivos y archivos especificados.
-**_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.
-**_mount_** la salida incluirá todos los sistemas de archivos, incluidos los virtuales, como cgroup, sysfs y otros.
-**_gparted_** administra las particiones.
-**_gnome-disk-utility_** muestra información sobre el disco.
-**_echo 'string'_** se usa para mostrar la línea o cadena de texto que se pasa como argumento.
-**_bash 'script.sh'_** ejecutar un script de bash.
+**_swapon_** se utiliza para especificar los dispositivos en los que se realizará la búsqueda y el intercambio.<br/>
+**_swapoff_** desactiva el intercambio en los dispositivos y archivos especificados.<br/>
+**_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.<br/>
+**_mount_** la salida incluirá todos los sistemas de archivos, incluidos los virtuales, como cgroup, sysfs y otros.<br/>
+**_gparted_** administra las particiones.<br/>
+**_gnome-disk-utility_** muestra información sobre el disco.<br/>
+**_echo 'string'_** se usa para mostrar la línea o cadena de texto que se pasa como argumento.<br/>
+**_bash 'script.sh'_** ejecutar un script de bash.<br/>
 
 
 ### Pre-requisitos 📋
