@@ -6,7 +6,9 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 ## Administración de archivos y directorios: :computer:🚀
 
-**_cd 'dir-name'_** crea un nuevo directorio.<br/>
+**_cd 'dir-name'_** moverse a un directorio.<br/>
+**_cd .._** retroceder al directorio anterio.<br/>
+**_cp 'file-name' 'path'_** copiar el contenido de un directorio o fichero a una ubicación específica.<br/>
 **_ls_** sirve para ver las carpetas y archivos que están dentro de un directorio.<br/>
 **_ls -l_** sirve para ver las carpetas y archivos que están dentro de un directorio en forma de lista. <br/>
 **_ls -a_** sirve para ver las carpetas y archivos que están ocultos. <br/>
@@ -30,6 +32,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_file 'file'_** muestra el tipo de archivo.<br/>
 **_chown 'user' 'file'_** propietario del archivo.<br/>
 **_chmod 777 'file'_** dar permisos al archivo.<br/>
+**_find -name 'file-name'_** para encontrar un archivo por nombre.<br/>
+**_locate 'file-name'_** para localizar un archivo.<br/>
  
 ## Administración de paquetes y repositorios: :computer:📦
 
@@ -37,6 +41,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
 **_sudo apt intall 'package-name'_** instalar un paquete de software.<br/>
 **_sudo apt intall openssh-server_** instalar un paquete llamado openssh-server, dicho paquete sirve para habilitar ssh en el dispositivo.<br/>
+**_sudo apt install mysql server_** instalar MySQL.<br/>
 **_sudo apt intall snapd_** instalar un paquete llamado snapd el cual es una tienda de aplicaciones.<br/>
 **_sudo apt remove 'package-name'_** eliminar un paquete de software.<br/>
 **_dpkg -l_** sirve para ver la lista de paquetes instalados.<br/>
@@ -45,6 +50,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_sudo add-apt-repository 'repository'_** añade un repositorio.<br/>
 
 **_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
+**_ping 'host-name or ip-address'_** sirve para ver la conectividad con un servidor.<br/>
+**_hostname_** ver el nombre de la máquina.<br/>
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
 **_whoami_** muestra el nombre del usuario que actualmente se encuentra en sesión.<br/>
 **_uname -a_** muestra la versión del kernel.<br/>
@@ -54,7 +61,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
 **_sudo passwd 'user' _** cambia el password del usuario especificado.<br/>
 **_history_** ver el historial de comandos que se han ejecutado.<br/>
- 
+**_sudo systemtl status 'service-name'_** ver si un servicio se encuentra corriendo en el equipo.<br/>
+
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
 **_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
@@ -73,6 +81,14 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_echo 'string'_** se usa para mostrar la línea o cadena de texto que se pasa como argumento.<br/>
 **_bash 'script.sh'_** ejecutar un script de bash.<br/>
 
+## Docker: :whale:📦
+
+**_sudo apt install docker-ce_** instalar docker.<br/>
+**_docker search 'image-name'_** buscar imágenes disponibles en Docker Hub.<br/>
+**_docker pull 'image-name'_** descargar una imagen a la computadora.<br/>
+**_docker images_** muestra las imágenes que se han descargado.<br/>
+**_docker ps_** muestra los contenedores que están activos.<br/>
+**_docker start 'container-id'_** inicia un contenedor..<br/>
 
 ## Estudiante ✒️
 
