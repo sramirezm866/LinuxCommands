@@ -35,7 +35,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_find -name 'file-name'_** para encontrar un archivo por nombre.<br/>
 **_locate 'file-name'_** para localizar un archivo.<br/>
  
-## Administración de paquetes y repositorios: :computer:📦
+## Administración de paquetes y repositorios: :computer::sparkles:
 
 **_sudo apt-updade_** actualiza la lista de paquetes.<br/>
 **_sudo apt-upgrade_** actualiza todos los paquetes instalados.<br/>
@@ -49,7 +49,19 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_dpkg -r 'package-name'_** sirve para desinstalar un paquete.<br/>
 **_sudo add-apt-repository 'repository'_** añade un repositorio.<br/>
 
+## Administración del sistema, servicios, recursos y otros: :computer::dizzy:
+
 **_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
+**_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
+**_sudo passwd 'user' _** cambia el password del usuario especificado.<br/>
+**_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
+**_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
+**_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
+**_top_** da información acerca del uso de la cpu, de la memoria, de los procesos en ejecución, entre otros, en tiempo real.<br/>
+**_htop_** permite al usuario monitorear interactivamente los recursos vitales del sistema.<br/>
+**_uptime_** se utiliza para averiguar cuánto tiempo está activo el sistema (en ejecución).<br/>
+**_df -h_** muestra información relacionada con los sistemas de archivos. (espacio total y el espacio disponible).<br/>
+**_sudo systemtl status 'service-name'_** ver si un servicio se encuentra corriendo en el equipo.<br/>
 **_ping 'host-name or ip-address'_** sirve para ver la conectividad con un servidor.<br/>
 **_hostname_** ver el nombre de la máquina.<br/>
 **_sudo su_** sirve para iniciar seción como usuario raíz.<br/>
@@ -58,26 +70,15 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_lsb_release -a_** muestra toda la información Linux Standard Base (LSB) específica para la distribución de Linux.<br/>
 **_man 'command'_** muestra el manual de uso de un comando.<br/>
 **_alias actualizar = "sudo apt update && sudo apt upgrade"_** crea un alias para un comando.<br/>
-**_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
-**_sudo passwd 'user' _** cambia el password del usuario especificado.<br/>
-**_history_** ver el historial de comandos que se han ejecutado.<br/>
-**_sudo systemtl status 'service-name'_** ver si un servicio se encuentra corriendo en el equipo.<br/>
-
-**_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
-**_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
-**_pstree_** visualizar el árbol de procesos, mostrando la relación padre hijo.<br/>
-**_top_** da información acerca del uso de la cpu, de la memoria, de los procesos en ejecución, entre otros, en tiempo real.<br/>
-**_htop_** permite al usuario monitorear interactivamente los recursos vitales del sistema.<br/>
-**_uptime_** se utiliza para averiguar cuánto tiempo está activo el sistema (en ejecución).<br/>
-**_df -h_** muestra información relacionada con los sistemas de archivos. (espacio total y el espacio disponible).<br/>
+**_gparted_** administra las particiones.<br/>
+**_gnome-disk-utility_** muestra información sobre el disco.<br/>
+**_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.<br/>
 **_demicode -t processor_** obtener información acerca del procesador.<br/>
 **_demicode -t bios_** obtener información acerca del bios.<br/>
 **_swapon_** se utiliza para especificar los dispositivos en los que se realizará la búsqueda y el intercambio.<br/>
 **_swapoff_** desactiva el intercambio en los dispositivos y archivos especificados.<br/>
-**_free_** proporciona información sobre el uso de memoria usada y no utilizada y la memoria de intercambio de un sistema.<br/>
 **_mount_** la salida incluirá todos los sistemas de archivos, incluidos los virtuales, como cgroup, sysfs y otros.<br/>
-**_gparted_** administra las particiones.<br/>
-**_gnome-disk-utility_** muestra información sobre el disco.<br/>
+**_history_** ver el historial de comandos que se han ejecutado.<br/>
 **_echo 'string'_** se usa para mostrar la línea o cadena de texto que se pasa como argumento.<br/>
 **_bash 'script.sh'_** ejecutar un script de bash.<br/>
 
@@ -88,7 +89,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_docker pull 'image-name'_** descargar una imagen a la computadora.<br/>
 **_docker images_** muestra las imágenes que se han descargado.<br/>
 **_docker ps_** muestra los contenedores que están activos.<br/>
-**_docker start 'container-id'_** inicia un contenedor..<br/>
+**_docker start 'container-id'_** inicia un contenedor.<br/>
 
 ## Estudiante ✒️
 
