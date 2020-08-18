@@ -93,6 +93,4 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 ## Estudiante ✒️
 
-_Elaborado por:_
-
 * **Sindy Emileidy Ramírez Mora** - *ULACIT*
