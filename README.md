@@ -16,8 +16,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_rmdir 'dir-name'_** elimina un directorio.<br/>
 **_touch archivo1.txt_** crea un nuevo archivo.<br/>
 **_cat archivo1.txt_** se logra visualizar el contenido de un archivo.<br/>
-**_nano archivo1.txt_** es un editor de texto.<br/>
-**_vi archivo1.txt_** es un editor de texto.<br/>
+**_nano archivo1.txt_** editor de texto.<br/>
+**_vim archivo1.txt_** editor de texto.<br/>
 **_mv 'file-name' 'new-file-name'_** renombrar un archivo o directorio.<br/>
 **_mv 'file-name' 'new-file-path'_** mover un archivo o directorio.<br/>
 **_more_** se usa para ver los documentos de texto mostrando una página a la vez en caso de que el archivo sea grande.<br/>
@@ -48,6 +48,8 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 **_dpkg -i 'package-name'_** sirve para instalar un paquete.<br/>
 **_dpkg -r 'package-name'_** sirve para desinstalar un paquete.<br/>
 **_sudo add-apt-repository 'repository'_** añade un repositorio.<br/>
+**_sudo apt-get install wget_** instalar el wget que sirve para descargar contendido de la web.<br/>
+**_wget 'url'_** descargar contendido de la web.<br/>
 
 ## Administración del sistema, servicios, recursos y otros: :computer::dizzy:
 
