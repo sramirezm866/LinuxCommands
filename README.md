@@ -55,6 +55,7 @@ _Se enlistan comandos básicos para la administración de dicho Sistema Operativ
 
 **_ip addr_** sirve para ver la dirección IP del dispositivo.<br/>
 **_useradd 'user' –p 'password'_** crea un usuario nuevo.<br/>
+**_sudo shutdown_** apagar el equipo.<br/>
 **_sudo passwd 'user' _** cambia el password del usuario especificado.<br/>
 **_ps -aux_** ver los procesos que están corriendo en el equipo.<br/>
 **_kill -# pid_** matar un proceso que está corriendo en el equipo.<br/>
