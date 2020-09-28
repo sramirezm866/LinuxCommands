@@ -23,4 +23,5 @@ _Repositorio con comandos de PowerShell._
 **_stop-process -name "name or id process"_** Detener un proceso que se esté ejecutando en el sistema.<br/>
 **_wait-process -id "id process"_** Esperar a que se detenga un proceso que se está ejecutando.<br/>
 **_get-service_**  Lista de todos los servicios que se están ejecutando en el sistema.<br/>
-**_get-service | select-object * _** Lista más detallada de todos los servicios que se están ejecutando en el sistema.<br/>
+**_get-service | select-object *_** Select-object detallada las propiedades.<br/>
+
