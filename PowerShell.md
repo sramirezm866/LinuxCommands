@@ -25,9 +25,9 @@ _Repositorio con comandos de PowerShell._
 **_get-service_**  Lista de todos los servicios que se están ejecutando en el sistema.<br/>
 **_get-service | select-object *_** Select-object detallada las propiedades.<br/>
 **_get-item win.ini | get-member *_** Get-Member optener listado de atributos y métodos.<br/>
-**_Get-ChildItem -file | Where-Object -Property name -Like "w*" _** Where-object para realizar filtrado de resultados.<br/>
+**_Get-ChildItem -file | Where-Object -Property name -Like "w*"._** Where-object para realizar filtrado de resultados.<br/>
 **_Get-ChildItem | Measure-Object "w*" _** Measure-Object para obtener estadísticas (count, average, maximum,minimun,...) sobre los resultados de cualquier cmdlet que devulva objetos.<br/>
-**_"La hora es: {0:HH:mm}" -f $var *_** Concatenar.<br/>
-**_"Hola, {0}, {1}" -f $var, "Jaime" *_** Concatenar.<br/>
+**_"La hora es: {0:HH:mm}" -f $var._** Concatenar.<br/>
+**_"Hola, {0}, {1}" -f $var, "Jaime" _** Concatenar.<br/>
 
 
